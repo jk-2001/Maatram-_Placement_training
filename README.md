@@ -1,1 +1,16 @@
-# Maatram-_Placement_training
+#program_1
+
+
+a = list(map(int, input (). split ()))
+print(a)
+b=[]
+k=int(input ())
+print ("K =",k)
+for i in a:
+    for j in a:
+        c=i+j
+        b. append(c)
+        d=set(b)
+for j in d:
+    if j==k:
+        print ("True ")
